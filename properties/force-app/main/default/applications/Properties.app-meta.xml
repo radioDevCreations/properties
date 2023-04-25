@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#FEDC01</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Properties</label>
+    <navType>Standard</navType>
+    <tabs>Property__c</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Task</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Properties_UtilityBar</utilityBar>
+</CustomApplication>
