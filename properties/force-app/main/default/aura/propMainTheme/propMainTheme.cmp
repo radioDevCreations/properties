@@ -1,0 +1,8 @@
+<aura:component implements="forceCommunity:themeLayout,flexipage:availableForAllPageTypes" access="global" description="Properties Main Theme Layout">
+  <ltng:require styles="{!$Resource.propStyleOverrider}" />
+  <div>
+    <c:propHeader />
+    <div>{!v.body}</div>
+    <c:propFooter />
+  </div>
+</aura:component>
